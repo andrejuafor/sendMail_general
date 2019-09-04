@@ -23,9 +23,6 @@ const bodyMessage = Joi.object().keys({
   }).required()
 })
 
-//SendMail:^#58wv=CQ=\@PPUH
-//U2VuZE1haWw6XiM1OHd2PUNRPVxAUFBVSA==
-
 routes.post('/send', async(req, res, next) => {
   console.log('Request a /send')
   try{
